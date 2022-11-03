@@ -14,6 +14,7 @@ export default function Map({location}:Props){
 
     return (
         <MapContainer 
+            // @ts-ignore
             center={{lat:location.Latitud , lng:location.Longitud}}  
             zoom={14} 
             //scrollWheelZoom={false}
