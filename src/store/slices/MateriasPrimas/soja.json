@@ -1,0 +1,20 @@
+[
+    {
+        "division":"Soja",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/10",
+        "nombre":"Soja"
+    },
+    {
+        "division":"Soja",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/15",
+        "nombre":"Pedro"
+    },
+    {
+        "division":"Soja",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/20",
+        "nombre":"Pelado"
+    }
+]

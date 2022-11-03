@@ -1,0 +1,20 @@
+[
+    {
+        "division":"Maiz",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/10",
+        "nombre":"maiz"
+    },
+    {
+        "division":"Maiz",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/15",
+        "nombre":"Pedro"
+    },
+    {
+        "division":"Maiz",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/20",
+        "nombre":"Pelado"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "division":"Trigo",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/10",
+        "nombre":"Trigo"
+    },
+    {
+        "division":"Trigo",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/15",
+        "nombre":"Pedro"
+    },
+    {
+        "division":"Trigo",
+        "type":"MateriasPrimas",
+        "fecha":"10/10/20",
+        "nombre":"Pelado"
+    }
+]

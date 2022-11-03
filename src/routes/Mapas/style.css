@@ -1,0 +1,30 @@
+.map-box-ul-links{
+    list-style: none;
+    padding:0px;
+}
+
+.map-li-links{
+    background-color:rgb(193, 196, 32);
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom:solid 1px black;
+    margin:0px;
+}
+
+.map-li-links-fecha{
+    margin-right:10px;
+}
+
+.map-li-links-nombre{
+    margin-left:10px;
+}
+
+.map-li-links-text{
+    color:black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}

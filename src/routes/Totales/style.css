@@ -1,0 +1,30 @@
+.total-box-ul-links{
+    list-style: none;
+    padding:0px;
+}
+
+.total-li-links{
+    background-color:rgb(32, 196, 59);
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom:solid 1px black;
+    margin:0px;
+}
+
+.total-li-links-fecha{
+    margin-right:10px;
+}
+
+.total-li-links-nombre{
+    margin-left:10px;
+}
+
+.total-li-links-text{
+    color:black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}

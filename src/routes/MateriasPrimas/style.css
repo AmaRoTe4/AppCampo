@@ -1,0 +1,30 @@
+.mat-pri-box-ul-links{
+    list-style: none;
+    padding:0px;
+}
+
+.mat-pri-li-links{
+    background-color:rgb(52, 152, 170);
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom:solid 1px black;
+    margin:0px;
+}
+
+.mat-pri-li-links-fecha{
+    margin-right:10px;
+}
+
+.mat-pri-li-links-nombre{
+    margin-left:10px;
+}
+
+.mat-pri-li-links-text{
+    color:black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}

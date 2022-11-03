@@ -1,0 +1,10 @@
+cosas a recordar:
+    mapa:
+        1-instalar leaflet y react-leaflet 
+        2-importar el css en el mapa
+        3-si da error no pasa nada , el controlador de errores no comprende la libreria.
+        4-si usas la referencia de la api pedida lo unico que tiene son un array con longitud y latitdu (dos numeros)
+        5-etc
+
+    notificaciones:
+        pagina: https://react-hot-toast.com/
