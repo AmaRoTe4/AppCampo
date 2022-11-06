@@ -1,7 +1,7 @@
 import Map from "../components/Map/Map";
 import { BtnVolver } from "../../../components/BtnVolver";
-import { useState } from "react";
-import { DataMap } from "../../../../interface";
+//import { useState } from "react";
+//import { DataMap } from "../../../interface";
 import './style.css'
 import { useSelector } from "react-redux";
 import { RootState } from "../../../store/store";

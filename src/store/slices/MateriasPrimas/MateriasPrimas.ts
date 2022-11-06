@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { Totales } from "../../../../interface/index" 
+import { Totales } from "../../../interface/index" 
 import maiz from './maiz.json'
 import trigo from './trigo.json'
 import soja from './soja.json'

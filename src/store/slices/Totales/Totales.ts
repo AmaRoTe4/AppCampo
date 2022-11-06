@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { Totales } from "../../../../interface/index" 
+import { Totales } from "../../../interface/index" 
 import Json from './data.json'
 
 export const TotalesSlice = createSlice({

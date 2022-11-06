@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { DataMap } from "../../../../interface/index" 
+import { DataMap } from "../../../interface/index" 
 
 export const UbicacionSlice = createSlice({
     name: 'Ubicacion',
