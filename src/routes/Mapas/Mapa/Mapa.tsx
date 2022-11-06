@@ -7,8 +7,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../../store/store";
 
 export default function Mapas(){
-    const { ubicacion } = useSelector((state:RootState) => state.ubicacion) 
-    
+    const { ubicacion } = useSelector((state:RootState) => state.ubicacion)     
 
     return (
         <div className="d-block" style={{height:'100vh' , width:'100vw'}}>

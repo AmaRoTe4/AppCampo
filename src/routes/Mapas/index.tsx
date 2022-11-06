@@ -1,7 +1,7 @@
 import './style.css'
 import { BtnVolver } from '../../components/BtnVolver'
 import BoxData from '../../components/BoxData/BoxData'
-import { DataMap } from '../../../interface'
+import { DataMap } from '../../interface/index'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
