@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '../../store/store'
 import { setSeleccionado } from '../../store/slices/MateriasPrimas/MateriasPrimas'
-import { Totales } from '../../../interface/index'
+import { Totales } from '../../interface/index'
 
 interface Props{
     type:string
