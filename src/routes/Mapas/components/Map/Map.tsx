@@ -14,7 +14,7 @@ interface Props{
 export default function Map({location}:Props){
 
     const newIcon = new Icon({
-      iconUrl:"/public/images/marcador_sin_fondo.png",
+      iconUrl:"/images/marcador_sin_fondo.png",
       iconSize: [40 , 60],
       iconAnchor: [22, 50],
       shadowAnchor: [22, 94]
