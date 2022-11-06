@@ -12,13 +12,12 @@ export default function Totales():JSX.Element{
     
     return (
         <>
-            <BtnVolver path="/" />
             <BoxData name="Totales">
                 <ul className="total-box-ul-links">
                     <Link to="/Informacion/Totales" style={{textDecoration:"none"}}>
                         {totales.map((n , i) => 
                             <li 
-                                key={i} 
+                            key={i} 
                                 className="total-li-links" 
                                 onClick={(e) => dispatch(setSeleccionado(n))}
                             >
@@ -29,6 +28,7 @@ export default function Totales():JSX.Element{
                     </Link>
                 </ul>
             </BoxData>
+            <BtnVolver path="/" />
         </>
     )
 }

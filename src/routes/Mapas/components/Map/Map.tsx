@@ -1,6 +1,7 @@
 import './index.css'
 import {DataMap} from '../../../../../interface/index' 
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
+import { Icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
 interface Props{
@@ -11,6 +12,15 @@ interface Props{
 //react-leaflet --> libreria que vamos a usar
 //leaflet 
 export default function Map({location}:Props){
+
+    const newIcon = new Icon({
+      iconUrl:"/public/images/marcador_sin_fondo.png",
+      iconSize: [40 , 60],
+      iconAnchor: [22, 50],
+      shadowAnchor: [22, 94]
+    })
+
+
 
     return (
         <MapContainer 
@@ -23,22 +33,22 @@ export default function Map({location}:Props){
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={[location.Latitud , location.Longitud]}>
+            <Marker icon={newIcon} position={[location.Latitud , location.Longitud]}>
               <Popup>
                 Actual
               </Popup>
             </Marker>
-            <Marker position={[-29.35,-59.97]}>
+            <Marker icon={newIcon} position={[-29.35,-59.97]}>
               <Popup>
                 Malabrigo
               </Popup>
             </Marker>
-            <Marker position={[-31, -61]}>
+            <Marker icon={newIcon} position={[-31, -61]}>
               <Popup>
                 Providencia
               </Popup>
             </Marker>
-            <Marker position={[-28, -70]}>
+            <Marker icon={newIcon} position={[-28, -70]}>
               <Popup>
                 Embalse Lautaro
               </Popup>

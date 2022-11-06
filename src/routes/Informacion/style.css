@@ -1,0 +1,23 @@
+.box-datos{
+    min-height:100px;
+    width: 100%;
+    background-color: rgb(200 200 200);
+}
+
+.title-box{
+    background-color: rgb(120 120 120);
+    height: 50px;
+    display: flex;
+}
+
+.title-box p{
+    margin: 0px 0px 0px 10px;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+}
+
+.data-box p{
+    margin: 10px 0px 10px 10px;
+    font-size: 25px;
+}

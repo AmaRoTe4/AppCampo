@@ -12,10 +12,10 @@ export default function Mapas(){
 
     return (
         <div className="d-block" style={{height:'100vh' , width:'100vw'}}>
-            <BtnVolver path="/Mapas/" />
             <div style={{height:'90%' , width:'100vw' , zIndex:100}}>
                 {location && <Map location={ubicacion} />}
             </div>
+            <BtnVolver path="/Mapas/" />
         </div>
     )
 }

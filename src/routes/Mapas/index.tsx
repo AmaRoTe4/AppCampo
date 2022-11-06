@@ -33,7 +33,6 @@ export default function MapaMain(){
 
     return (
         <>
-            <BtnVolver path="/" />
             <BoxData name="Sillos">
                 <Link to="Mapa" style={{textDecoration:"none"}}>
                     <ul className="map-box-ul-links">
@@ -46,14 +45,15 @@ export default function MapaMain(){
                                         Longitud:n.Longitud,
                                         Latitud:n.Latitud,
                                     }
-                                ))}
-                            >
+                                    ))}
+                                    >
                                 <p className="map-li-links-text map-li-links-nombre">{n.nombre}</p>
                             </li>
                         )}
                     </ul>
                 </Link>
             </BoxData>
+            <BtnVolver path="/" />
         </>
     )
 }

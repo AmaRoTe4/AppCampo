@@ -26,9 +26,10 @@ export default function MateriasPrimas({type}:Props){
 
     return (
         <>
-            <BtnVolver path="/" />
             <BoxData name={type}>
-                <Link to="/Informacion/MateriasPrimas" style={{textDecoration:"none"}}>
+                <Link to="/Informacion/MateriasPrimas" style={{
+                    textDecoration:"none"
+                }}>
                     <ul className="mat-pri-box-ul-links">
                         {RetonroDeData.map((n , i) => 
                             <li 
@@ -41,8 +42,8 @@ export default function MateriasPrimas({type}:Props){
                                         nombre:n.nombre,
                                         fecha:n.fecha,
                                     }
-                                ))}
-                            >
+                                    ))}
+                                    >
                                 <p className="mat-pri-li-links-text total-li-links-nombre">{n.nombre}</p>
                                 <p className="mat-pri-li-links-text total-li-links-fecha">{n.fecha}</p>
                             </li>
@@ -50,6 +51,7 @@ export default function MateriasPrimas({type}:Props){
                     </ul>
                 </Link>
             </BoxData>
+            <BtnVolver path="/" />
         </>
     )
 }
